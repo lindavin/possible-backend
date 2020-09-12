@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.port=exports.url=void 0;const url=process.env.MONGODB_URI||"mongodb://localhost:27017/test_database";exports.url=url;const port=process.env.PORT||9e3;exports.port=port;
